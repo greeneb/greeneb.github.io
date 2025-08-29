@@ -1,3 +1,5 @@
+  import { Link } from "react-router-dom";
+
 export default function Home() {
   // Inline photo swap component
   function HoverSwapPhoto() {
@@ -58,20 +60,44 @@ export default function Home() {
             <h3 className="text-lg md:text-xl font-semibold">Course Notes</h3>
             <p className="prose mt-2">
               I digitally handwrite notes for many of my courses. Access them{" "}
-              <a
-                href="/notes"
+              <button onClick={() => useNavigate("#/notes")}>here</button>.
+              {/* <Link to="/notes" className="underline font-medium">
+                here
+              </Link>. */}
+              {/* <a
+                href="#/notes"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline font-medium"
               >
                 here
-              </a>.
+              </a>. */}
             </p>
           </section>
 
           <section className="card p-6">
             <h3 className="text-lg md:text-xl font-semibold">Resume & CV</h3>
             <p className="prose mt-2">
+              Download my one-page{" "}
+              <a 
+                href={`${import.meta.env.BASE_URL}resume.pdf`} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="underline font-medium"
+              >
+                resume
+              </a>{" "}
+              or extended{" "}
+              <a 
+                href={`${import.meta.env.BASE_URL}cv.pdf`} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="underline font-medium"
+              >
+                CV
+              </a>.
+            </p>
+            {/* <p className="prose mt-2">
               Download my one-page{" "}
               <a
                 href="/resume.pdf"
@@ -90,7 +116,7 @@ export default function Home() {
               >
                 CV
               </a>.
-            </p>
+            </p> */}
           </section>
         </div>
 

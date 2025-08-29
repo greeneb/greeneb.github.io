@@ -17,8 +17,8 @@ export default function App() {
         <main className="flex-grow container-narrow py-12 md:py-16">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/research" element={<Research />} />
-            <Route path="/notes" element={<Notes />} />
+            <Route path="#/research" element={<Research />} />
+            <Route path="#/notes" element={<Notes />} />
           </Routes>
         </main>
 
