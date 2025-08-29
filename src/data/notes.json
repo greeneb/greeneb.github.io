@@ -1,0 +1,25 @@
+{
+  "sections": [
+    {
+      "code": "UG",
+      "title": "Undergraduate course notes",
+      "items": [
+        { "title": "Math 340: Advanced Introduction to Probability", "href": "Advanced Introduction to Probability.pdf", "size": "17.7 MB"},
+        { "title": "Math 403: Advanced Linear Algebra", "href": "Advanced Linear Algebra.pdf", "size": "12.1 MB" },
+        { "title": "Math 412: Topological Data Analysis", "href": "Topological Data Analysis.pdf", "size": "9.4 MB"}
+      ]
+    },
+    {
+      "code": "GR",
+      "title": "Graduate course notes",
+      "items": [
+        { "title": "Math 501: Algebraic Structures I", "href": "Algebraic Structures l.pdf", "size": "17.2 MB" },
+        { "title": "Math 502: Algebraic Structures II", "href": "Algebraic Structures II.pdf", "size": "9.5 MB" },
+        { "title": "Math 602: Commutative Algebra", "href": "Commutative Algebra.pdf", "size": "51.3 MB" },
+        { "title": "Physics 622: General Relativity", "href": "General Relativity.pdf", "size": "18.5 MB"},
+        { "title": "Math 627: Algebraic Geometry", "href": "Algebraic Geometry.pdf", "size": "29.4 MB" },
+        { "title": "Math 790: Geometric Central Limit Theorems on Singular Spaces", "href": "Geometric Central Limit Theorems on Singular Spaces.pdf", "size": "4.9 MB" }
+      ]
+    }
+  ]
+}
