@@ -1,7 +1,8 @@
-  import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   // Inline photo swap component
+
   function HoverSwapPhoto() {
     return (
       <div className="relative w-40 h-40 md:w-[220px] md:h-[220px] rounded-xl overflow-hidden group shadow-sm border border-black/5">
@@ -60,10 +61,10 @@ export default function Home() {
             <h3 className="text-lg md:text-xl font-semibold">Course Notes</h3>
             <p className="prose mt-2">
               I digitally handwrite notes for many of my courses. Access them{" "}
-              <button onClick={() => useNavigate("#/notes")}>here</button>.
-              {/* <Link to="/notes" className="underline font-medium">
+              {/* <button onClick={() => navigate('/foo')}>here</button>. */}
+              <Link to="/notes" className="underline font-medium">
                 here
-              </Link>. */}
+              </Link>.
               {/* <a
                 href="#/notes"
                 target="_blank"
